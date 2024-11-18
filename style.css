@@ -34,6 +34,7 @@ body *{
 }
 
 
+
 footer{
     font-family: "Rubik", sans-serif;
     font-optical-sizing: auto;
@@ -43,5 +44,57 @@ footer{
     font-size: 12px;   
     }
 
+
+
+
+
+
+
+
     @media only screen and (max-width: 600px) {#main {margin-left: 0}}
 
+
+
+    .slideshow-container {
+        position: relative;
+        width: 80%;
+        max-width: 800px;
+        margin: auto;
+        overflow: hidden;
+      }
+      
+      .slideshow {
+        display: flex;
+        transition: transform 0.5s ease;
+      }
+      
+      .slide {
+        width: 100%;
+        flex: 0 0 100%;
+      }
+      
+      img {
+        width: 100%;
+        display: block;
+      }
+      
+      button {
+        position: absolute;
+        top: 50%;
+        background-color: rgba(0, 0, 0, 0.5);
+        color: white;
+        border: none;
+        padding: 16px;
+        cursor: pointer;
+        font-size: 24px;
+        z-index: 1;
+        transform: translateY(-50%);
+      }
+      
+      .prev {
+        left: 0;
+      }
+      
+      .next {
+        right: 0;
+      }
