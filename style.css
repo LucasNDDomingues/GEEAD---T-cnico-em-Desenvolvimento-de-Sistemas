@@ -1,0 +1,47 @@
+body *{
+    
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;}
+
+
+.roboto-bold {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+.w3-sidebar {
+    max-width: 100px;
+    background:rgb(0, 0, 0);
+    border-radius:5px ;
+    }
+    
+.w3-bar-item{
+    border-radius: 5px;
+    max-height: 80px;
+    margin-top: 20px;
+        
+}
+
+#main{
+    margin-left: 120px;
+}
+
+.w3-image{
+    width: 40%;
+    height: 40%;
+}
+
+
+footer{
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style:italic;
+
+    font-size: 12px;   
+    }
+
+    @media only screen and (max-width: 600px) {#main {margin-left: 0}}
+
